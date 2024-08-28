@@ -1,0 +1,7 @@
+@include('admin.layout.header')
+@include('admin.layout.navbar')
+@include('admin.layout.sidebar')
+@yield('master-section')
+@include('admin.layout.footer')
+@include('admin.layout.script')
+@yield('script-section')
